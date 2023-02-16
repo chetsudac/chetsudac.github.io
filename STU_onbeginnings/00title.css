@@ -1,13 +1,39 @@
+a {
+  z-index: 4;
+  color: black;
+  position: relative;
+  text-decoration: none;
+}
+
+a::before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 10px;
+  background-color: black;
+  bottom: 0;
+  left: 0;
+  transform-origin: left;
+  transform: scaleX(0);
+  transition: transform .5s ease-in-out;
+}
+
+a:hover::before {
+  transform-origin: left;
+  transform: scaleX(1);
+}
+
 .title {
+z-index: 4;
 position: absolute;
-left: 0px;
-top: 0px;
+left: 26px;
+top: -4px;
 
 font-family: "cy", sans-serif;
 font-weight: 500;
 font-style: normal;
-font-size: 170px;
-line-height: 211px;
+font-size: 160px;
+line-height: 200px;
 display: flex;
 align-items: center;
 text-align: center;
@@ -16,17 +42,18 @@ color: #000000;
 }
 
 .author {
+z-index: 4;
 position: absolute;
 width: 402px;
 height: 66px;
 left: 998px;
-top: 223px;
+top: 220px;
 
 font-family: "cy", sans-serif;
 font-weight: 500;
 font-style: normal;
 font-size: 50px;
-line-height: 66px;
+line-height: 60px;
 /* identical to box height */
 
 display: flex;
@@ -37,20 +64,28 @@ color: #000000;
 }
 
 .title2 {
+z-index: 4;
 position: absolute;
 width: 441px;
 height: 132px;
 left: 40px;
-top: 853px;
+top: 620px;
 
 font-family: "cy", sans-serif;
 font-weight: 500;
 font-style: normal;
 font-size: 50px;
-line-height: 66px;
+line-height: 60px;
 display: flex;
 align-items: center;
 text-align: justify;
 
 color: #000000;
+}
+
+.gif {
+    z-index: 1;
+    position: absolute;
+    left: 270px;
+    top: 160px;
 }
