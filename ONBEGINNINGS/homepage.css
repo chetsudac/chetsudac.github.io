@@ -3,7 +3,6 @@ width: 1250px;
 border: 20px solid white;
 margin: 10px;
 padding: 50px;
-font-size: 20px;
 font-family: Helvetica, sans-serif;
 font-weight: 700;
 font-style: normal;
@@ -30,4 +29,13 @@ a {
 
 span{
     color:rgba(100, 100, 100, 0);
+}
+
+.endpage {
+  text-align: center;
+  font-family: "cy", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 30px;
+  line-height: 50px;
 }

@@ -1,0 +1,13 @@
+div {
+    width: 1250px;
+    border: 20px solid white;
+    margin: 10px;
+    padding: 50px;
+    font-family: Helvetica, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 30px;
+    line-height: 50px;
+    position: relative;
+    text-align: justify;
+     }
