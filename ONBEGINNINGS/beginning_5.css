@@ -1,5 +1,5 @@
 body {
-    background-color: black;
+    background-color: #DA400B;
 }
 div {
     width: 800px;
@@ -24,6 +24,7 @@ div {
         width: 850px;
         height: 1900px;
         background: #5E94D1;
+        filter: blur(80px);
         }
 
         .endpage {
@@ -35,10 +36,11 @@ div {
         }
         
         a {
-            color: #5E94D1;
+            color: #E8AE47;
             font-family: "cy", sans-serif;
             font-weight: 500;
             font-style: normal;
+            text-shadow: #E8AE47 1px 0 10px;
         }
 
         .some {
