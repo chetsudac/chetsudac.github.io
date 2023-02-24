@@ -7,10 +7,15 @@ body{
 }
 
 a {
+   color: #51361a;
+   position: relative;
+}
+
+a:hover {
    color: #6496E2;
 }
 
-p1 {
+p1,p,p3 {
    margin-left: 50px;
    margin-right: 50px;
    margin-top: 50px;
@@ -23,17 +28,17 @@ font-style: normal;
    text-align: justify;
    hyphens: auto;
    line-height: 1.0;
-   color: #DC643E
+   color: #6496E2;
 }
 
-p,p3 {
+p4 {
    margin-left: 50px;
    margin-right: 50px;
    margin-top: 50px;
    margin-bottom: 50px;
-   font-size: 96px;
-   font-family: "cy", sans-serif;
-font-weight: 500;
+   font-size: 40px;
+font-family: "video", serif;
+font-weight: 400;
 font-style: normal;
    position: relative;
    text-align: justify;
@@ -42,34 +47,18 @@ font-style: normal;
    color: #6496E2
 }
 
-p4,p5,p6,p7,p8,p9 {
+p5 {
    margin-left: 50px;
    margin-right: 50px;
    margin-top: 50px;
    margin-bottom: 50px;
-   font-size: 40px;
-   font-family: "video", serif;
-   font-weight: 400;
-   font-style: normal;
-   position: relative;
-   text-align: justify;
-   hyphens: auto;
-   line-height: 1.0;
-   color: #DC643E
-}
-
-p11 {
-   margin-left: 50px;
-   margin-right: 50px;
-   margin-top: 50px;
-   margin-bottom: 50px;
-   font-size: 40px;
-   font-family: "cy", sans-serif;
-font-weight: 500;
+   font-size: 40px; 
+font-family: "video", serif;
+font-weight: 400;
 font-style: normal;
    position: relative;
    text-align: justify;
-   hyphens: auto;
+   hyphens: none;
    line-height: 1.0;
-   color: #DC643E;
+   color: #6496E2
 }

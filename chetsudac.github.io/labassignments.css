@@ -10,7 +10,7 @@ a {
    color: #6496E2;
 }
 
-p1,p {
+p1,p3 {
    margin-left: 50px;
    margin-right: 50px;
    margin-top: 50px;
@@ -23,10 +23,10 @@ font-style: normal;
    text-align: justify;
    hyphens: auto;
    line-height: 1.0;
-   color: #6496E2
+   color: #51361a;
 }
 
-p3 {
+p {
    margin-left: 50px;
    margin-right: 50px;
    margin-top: 50px;
@@ -39,7 +39,39 @@ font-style: normal;
    text-align: justify;
    hyphens: auto;
    line-height: 1.0;
-   color: #DC643E
+   color: #6496E2;
+}
+
+p4 {
+   margin-left: 50px;
+   margin-right: 50px;
+   margin-top: 50px;
+   margin-bottom: 50px;
+   font-size: 40px;
+   font-family: "video", serif;
+   font-weight: 400;
+   font-style: normal;
+   position: relative;
+   text-align: justify;
+   hyphens: auto;
+   line-height: 1.0;
+   color: #51361a;
+}
+
+.as2 {
+   margin-left: 50px;
+   margin-right: 50px;
+   margin-top: 50px;
+   margin-bottom: 50px;
+   font-size: 40px;
+   font-family: "video", serif;
+   font-weight: 400;
+   font-style: normal;
+   position: relative;
+   text-align: justify;
+   hyphens: auto;
+   line-height: 1.0;
+   color: #51361a; 
 }
 
 p11 {
@@ -55,5 +87,5 @@ font-style: normal;
    text-align: justify;
    hyphens: auto;
    line-height: 1.0;
-   color: #DC643E;
+   color: #6496E2;
 }
