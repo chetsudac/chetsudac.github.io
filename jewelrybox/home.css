@@ -5,6 +5,20 @@ body {
     font-size: 25px;
 }
 
+
+.bgcontainer {
+    z-index: 1;
+    top: 600px;
+    display:grid;
+}
+
+.gif {
+    z-index: 1;
+    position:relative;
+    left: 270px;
+    top: 100px;
+}
+
 .head {
     margin-left: 75%;
     display: inline-flex;
@@ -12,7 +26,7 @@ body {
     align-items: flex-start;
     margin-top: 20px;
     color:black;
-    z-index: 1;
+    z-index: 4;
 }
 
 .item {
@@ -46,7 +60,7 @@ a:hover {
     display: grid;
     text-align: center;
     margin: 220px;
-    z-index: 1;
+    z-index: 4;
 }
 
 .subtitle {
@@ -55,21 +69,7 @@ a:hover {
    margin-top: 60px;
    display:grid;
    position: fixed;
-   z-index: 1;
-}
-
-.img {
-    width: 450px;
-    height: 450px;
-    position: fixed;
-    left: 445px;
-    top: 100px;
-    z-index: 3;
-    margin: opx;
-}
-
-.box:hover {
-    opacity: 0;
+   z-index: 4;
 }
 
 @media screen and (min-width: 480px) {
