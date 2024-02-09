@@ -9,7 +9,7 @@ body {
 }
 
 .title {
-    font-family: 'Kulim Park';
+    font-family: 'Kulim Park', sans-serif;
     font-size: 160px;
     font-style: normal;
     font-weight: 600;
