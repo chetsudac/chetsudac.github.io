@@ -1,0 +1,71 @@
+html {
+    margin: 0;
+    background: #D9D9D9;
+}
+
+body {
+    margin: 50px;
+    color: #404040;
+}
+
+.title {
+    font-family: 'Kulim Park';
+    font-size: 160px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140px;
+    display:grid;
+    text-align: center;
+    width: 90vw;
+}
+
+.subtitle {
+    width: 90vw;
+    display:flex ;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    font-family: 'Spline Sans', sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    border-bottom: 2px solid #404040;
+}
+
+.content-beginnings {
+    width: 60vw;
+    display:flex ;
+    justify-content: space-around;
+    padding-left: 15vw;
+    padding-top: 5vh;
+    color: #404040;
+    font-family: "Spline Sans";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    text-align:center;
+    animation: fadeIn 10s;
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+a {
+    color: #404040;
+    text-decoration: none;
+}
+
+a:visited {color:#404040;}
+ 
+  a:hover {
+    transition: 0.8s;
+    font-size:115%;
+    color: #959292;
+  }
