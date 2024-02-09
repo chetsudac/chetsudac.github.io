@@ -1,112 +1,65 @@
 html{
     margin: 0;
     font-size: 10px;
-    font-family: 'Neue Haas Black', 'sans-serif';
+    font-family: 'Courier New', Courier, monospace;
     box-sizing: border-box;
+
 }
 
 body {
     font-size: 1.6rem;
     margin: 0;
+    padding: 5rem;
 }
 
-.flex-container{
+main {
     display: flex;
-    flex-direction: row;
-    height: 100vh;
-    width: 100vw;
-
+    flex-direction: column;
+    gap: 3rem;
 }
 
-.flex-container--image{
-    width: 70%;
-    height: 100%;
-    padding: 4rem;
-}
-
-.flex-container--image img{
-    width: 90%;
-    height: 95%;
-    object-fit: contain;
-}
-
-.flex-container--content{
-    width: 30%;
-    height: 100vh;
-    overflow-y: scroll;
-}
-
-.content-actions{
+.bubble-container--left {
     display: flex;
-    justify-content: space-between;
-    border-bottom: 1px solid black;
-    padding-bottom: 5pt;
+    gap: .5rem;
+    flex-direction: column;
 }
 
-.content-toggle--container{
+.bubble-container--right {
     display: flex;
-    justify-content: space-around;
+    gap: .5rem;
+    flex-direction: column;
+    align-items: end;
 }
 
-.content-toggle{
-    width: 50%;
-    text-align: center;
-    padding: 1rem 2rem;
+.bubble--blue, .bubble--pink {
+    color: white;
+    padding: 1rem;
+    width: 75%;
+    font-size: 2rem;
 }
 
-.content-toggle.active{
-    border-bottom: 1px solid black;
+.bubble--blue {
+    background-color: royalblue;
+    border-radius: 2rem 2rem 2rem 0;
+    transition: background-color 300ms;
 }
 
-.content-connections{
-    margin-top: 1.5rem;
+.bubble--blue:hover{
+    background-color: plum;
 }
 
-.info1{
-    border-top: 1px solid black;
+.bubble--pink {
+    background-color: plum;
+    border-radius: 2rem 2rem 0 2rem;
+    text-align: right;
+    transition: background-color 300ms;
 }
 
-.content-options{
-    display: block;
-    padding-top: 10pt;
+.bubble--pink:hover{
+    background-color: royalblue;
 }
 
-.content-button-connect{
-    display:flex;
-    justify-content: space-around;
-    text-align: center;
-    margin-top: 2rem;
-}
-
-.button-connect{
-    display:flex;
-    justify-content: space-around;
-    text-align: center;
-    border: 2px solid lightgrey;
-    border-radius: 3px;
-    width: 160px;
-    height: 30px;
-    padding: 10px;
-    padding-bottom: 0px;
-}
-
-.button-connect:hover{
-    border: 2px solid grey;
-}
-
-.content-buttons{
-    display:grid;
-    justify-content: space-around;
-    text-align: center;
-    margin-top: 5rem;
-}
-
-.buttons{
-    justify-content: space-around;
-    text-align: center;
-    border: 2px solid lightgrey;
-    width: 30vw;
-    height: 40px;
-    padding-top: 2rem;
-    margin-bottom: 1rem;
+.bubble--name {
+    font-size: 1.4rem;
+    text-transform: uppercase;
 }
