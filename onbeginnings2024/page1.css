@@ -4,7 +4,7 @@ html {
 }
 
 .scroll-container {
-        border: 3px solid transparent;
+        border: 0px solid transparent;
         border-radius: 10px;
         overflow: hidden;
         height: 180px;
