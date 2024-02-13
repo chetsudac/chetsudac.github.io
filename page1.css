@@ -1,0 +1,59 @@
+html {
+  margin: 0;
+  background: #D9D9D9;
+}
+
+.scroll-container {
+        border: 0px solid transparent;
+        border-radius: 10px;
+        overflow: hidden;
+        height: 180px;
+}
+
+.scroll-life, .scroll-poetry, .scroll-paul, .scroll-paul--last {
+    overflow: hidden;
+    color: #404040;
+    font-family: "Spline Sans";
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    text-align: center;
+  }
+  
+.scroll-life, .scroll-poetry, .scroll-paul, .scroll-paul--last {
+ /* animation properties */
+ -moz-transform: translateY(100%);
+ -webkit-transform: translateY(100%);
+ transform: translateY(100%);
+ 
+ -moz-animation: my-animation 10s linear infinite;
+ -webkit-animation: my-animation 10s linear infinite;
+ animation: my-animation 10s linear infinite;
+  }
+  
+  /* for Firefox */
+  @-moz-keyframes my-animation {
+    from { -moz-transform: translateY(100%); }
+    to { -moz-transform: translateY(-100%); }
+  }
+  
+  /* for Chrome */
+  @-webkit-keyframes my-animation {
+    from { -webkit-transform: translateY(100%); }
+    to { -webkit-transform: translateY(-100%); }
+  }
+  
+  @keyframes my-animation {
+    from {
+      -moz-transform: translateY(100%);
+      -webkit-transform: translateY(100%);
+      transform: translateY(100%);
+    }
+    to {
+      -moz-transform: translateY(-100%);
+      -webkit-transform: translateY(-100%);
+      transform: translateY(-100%);
+    }
+  }
