@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="width=">
+        <title>griddemo</title>
+        <style>
+            body{
+                margin: 0;
+            }
+            .container {
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr 1fr;
+                grid-template-rows: 10vh 80vh 10vh;
+                grid-template-areas: 
+                "header header header header"
+                "sidebar . main main"
+                "footer footer footer footer";
+            
+            }
+            .item-a {
+                background-color: beige;
+                grid-area: header;
+            }
+            .item-b {
+                background-color: lightpink;
+                grid-area: sidebar;
+            }
+            .item-c {
+                background-color: lightcoral;
+                grid-area: main;
+            }
+            .item-d {
+                background-color: lightseagreen;
+                grid-area: footer;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="item-a">a demo for css grid</div>
+            <div class="item-b">a side bar</div>
+            <div class="item-c">a main content part</div>
+            <div class="item-d">a footer</div>
+        </div>
+    </body>
+</html>

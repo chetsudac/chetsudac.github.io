@@ -1,0 +1,76 @@
+html{
+    margin: 0;
+    font-size: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    box-sizing: border-box;
+
+}
+
+body {
+    font-size: 1.6rem;
+    margin: 0;
+    padding: 5rem;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    z-index: 2;
+    position: relative;
+}
+
+.bubble-container--left {
+    display: flex;
+    gap: .5rem;
+    flex-direction: column;
+}
+
+.bubble-container--right {
+    display: flex;
+    gap: .5rem;
+    flex-direction: column;
+    align-items: end;
+}
+
+.bubble--blue, .bubble--pink {
+    color: white;
+    padding: 1rem;
+    width: 75%;
+    font-size: 2rem;
+}
+
+.bubble--blue {
+    background-color: royalblue;
+    border-radius: 2rem 2rem 2rem 0;
+    transition: background-color 300ms;
+}
+
+.bubble--blue:hover{
+    background-color: plum;
+}
+
+.bubble--pink {
+    background-color: plum;
+    border-radius: 2rem 2rem 0 2rem;
+    text-align: right;
+    transition: background-color 300ms;
+}
+
+.bubble--pink:hover{
+    background-color: royalblue;
+}
+
+.bubble--name {
+    font-size: 1.4rem;
+    text-transform: uppercase;
+}
+
+.background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+}

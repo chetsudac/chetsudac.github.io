@@ -1,0 +1,111 @@
+div {
+    width: 1250px;
+    border: 20px solid rgba(100, 100, 100, 0);
+    margin: 10px;
+    padding: 50px;
+    font-family: Helvetica, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 30px;
+    line-height: 50px;
+    position: relative;
+    text-align: justify;
+     }
+
+.noone {
+    color: black;
+    width: 1250px;
+    margin: 20px;
+    padding: 15px;
+    border: 30px solid rgba(100, 100, 100, 0);
+    font-family: "cy", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 100px;
+    line-height: 90px;
+    transition: color .9s ease-in-out, .9s ease-in-out;
+}
+
+.noone:hover {
+    color: rgba(100, 100, 100, 0);
+  }
+
+.inpoetry {
+    width: 900px;
+    border: 20px solid rgba(100, 100, 100, 0);
+    margin: 10px;
+    padding: 90px;
+    font-family: Helvetica, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 30px;
+    line-height: 50px;
+    position: absolute;
+    left: 200px;
+    top: 1000px;
+    text-align: justify;
+}
+
+.abandoned {
+    width: 800px;
+    border: 20px solid rgba(100, 100, 100, 0);
+    margin: 10px;
+    padding: 90px;
+    transition: color .9s ease-in-out, .9s ease-in-out;
+}
+
+.abandoned:hover {
+    color: rgba(100, 100, 100, 0);
+  }
+
+.cf {
+    width: 800px;
+    border: 20px solid rgba(100, 100, 100, 0);
+    margin: 10px;
+    padding: 90px;  
+    transition: color .9s ease-in-out, .9s ease-in-out;
+}
+
+.cf:hover {
+    color: rgba(100, 100, 100, 0);
+  }
+
+.carriedaway {
+    width: 800px;
+    border: 20px solid rgba(100, 100, 100, 0);
+    margin: 10px;
+    padding: 90px;
+    transition: color .9s ease-in-out, .9s ease-in-out;
+}
+
+.carriedaway:hover {
+    color: rgba(100, 100, 100, 0);
+  }
+
+ 
+    a {
+        color: black;
+        position: relative;
+        text-decoration: none;
+        font-family: "cy", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+      }
+      
+      a::before {
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 3px;
+        background-color: black;
+        bottom: 0;
+        left: 0;
+        transform-origin: left;
+        transform: scaleX(0);
+        transition: transform .5s ease-in-out;
+      }
+      
+      a:hover::before {
+        transform-origin: left;
+        transform: scaleX(1);
+      }

@@ -1,0 +1,105 @@
+body {
+    background-color: #DA400B;
+}
+div {
+    width: 800px;
+    border: 100px solid rgba(100, 100, 100, 0);
+    margin: 10px;
+    padding: 0px;
+    font-family: Helvetica, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 30px;
+    line-height: 50px;
+    position: absolute;
+    left: 200px;
+    text-align: justify;
+    z-index: 7;
+     }
+
+     .rectangle {
+        position: absolute;
+        top:50px;
+        left: 175px;
+        width: 850px;
+        height: 1900px;
+        background: #5E94D1;
+        filter: blur(80px);
+        }
+
+        .endpage {
+            text-align: center;
+            position: absolute;
+            align-items: center;
+            top:2150px;
+    
+        }
+        
+        a {
+            color: #E8AE47;
+            font-family: "cy", sans-serif;
+            font-weight: 500;
+            font-style: normal;
+            text-shadow: #E8AE47 1px 0 10px;
+        }
+
+        .some {
+            font-family: "cy", sans-serif;
+            font-weight: 500;
+            font-style: normal;
+            color:rgba(100, 100, 100, 0);
+        }
+
+        .some:hover {
+            font-family: "cy", sans-serif;
+            font-weight: 500;
+            font-style: normal;
+            color:white;
+            text-shadow: white 1px 0 10px;
+        }
+
+        .that {
+            font-family: "cy", sans-serif;
+            font-weight: 500;
+            font-style: normal;
+            color:rgba(100, 100, 100, 0);
+        }
+
+        .that:hover {
+            font-family: "cy", sans-serif;
+            font-weight: 500;
+            font-style: normal;
+            color:white;
+            text-shadow: white 1px 0 10px;
+        }
+
+        .or {
+            font-family: "cy", sans-serif;
+            font-weight: 500;
+            font-style: normal;
+            color:rgba(100, 100, 100, 0);
+        }
+
+        .or:hover {
+            font-family: "cy", sans-serif;
+            font-weight: 500;
+            font-style: normal;
+            color:white;
+            text-shadow: white 1px 0 10px;
+        }
+
+        .wouldnot {
+            font-family: "cy", sans-serif;
+            font-weight: 500;
+            font-style: normal;
+            color:rgba(100, 100, 100, 0);
+        }
+
+        .wouldnot:hover {
+            font-family: "cy", sans-serif;
+            font-weight: 500;
+            font-style: normal;
+            color:white;
+            text-shadow: white 1px 0 10px;
+        }
+

@@ -1,0 +1,130 @@
+body {
+    background-color:black;
+    margin: 0%;
+    width:100vw;
+    height:100vh;
+  }
+  
+  .rectangle {
+  position: absolute;
+  width: 407px;
+  height: 264px;
+  left: 516px;
+  top: 365px;
+  background: rgb(255,248,179);
+  background: radial-gradient(circle, rgba(255,248,179,1) 0%, rgba(53,107,42,1) 86%, rgba(45,101,36,1) 100%);
+  z-index: 7;
+  }
+
+  .rectangle:hover {
+    background: rgba(100, 100, 100, 0);
+  }
+  
+  .name {
+  position: absolute;
+  width: 892px;
+  height: 250px;
+  left: 22px;
+  top: 23px;
+  font-family: Helvetica, Sans-Serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 135px;
+  line-height: 110px;
+  text-align: justify;
+  letter-spacing: -0.05em;
+    color: white;
+  }
+  .survey {
+  position: absolute;
+  width: 892px;
+  height: 118px;
+  left: 274px;
+  top: 281px;
+    color: white;
+  
+  font-family: Helvetica, Sans-Serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 140px;
+  line-height: 140px;
+  text-align: center;
+  letter-spacing: -0.07em;
+    color: white;
+  }
+  .year {
+  position: absolute;
+  width: 892px;
+  height: 130px;
+  left: 274px;
+  top: 583px;
+  font-family: Helvetica, Sans-Serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 140px;
+  line-height: 140px;
+  text-align: center;
+  letter-spacing: -0.05em;
+    color: white;
+  }
+  .date {
+  position: absolute;
+  width: 892px;
+  height: 217px;
+  left: 22px;
+  top: 753px;
+  font-family: Helvetica, Sans-Serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 135px;
+  line-height: 110px;
+  text-align: justify;
+  letter-spacing: -0.05em;
+    color: white;
+  }
+  
+  .alignleft {
+  position: absolute;
+  width: 174px;
+  height: 54px;
+  left: 22px;
+  top: 970px;
+  display: flex;
+  align-items: center;
+  text-align: justify;
+  font-family: Helvetica, Sans-Serif;
+    font-style: normal;
+    font-size: 35px;
+    color: white;
+  }
+  
+  .aligncenter {
+  position: absolute;
+  width: 269px;
+  height: 54px;
+  left: 585px;
+  top: 970px;
+  font-family: 'Arial Black', Sans-Serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 30px;
+  line-height: 110px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+    color: white;
+  }
+  .alignright {
+  position: absolute;
+  width: 269px;
+  height: 54px;
+  left: 1149px;
+  top: 970px;
+  display: flex;
+  align-items: center;
+  text-align: right;
+  font-family: Helvetica, Sans-Serif;
+    font-style: normal;
+    font-size: 35px;
+    color: white;
+  }
